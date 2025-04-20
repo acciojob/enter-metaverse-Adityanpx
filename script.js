@@ -1,6 +1,6 @@
 //your JS code here. If required.
-document.querySelector(".enterBtn").addEventListener("click", function () {
-	let p = document.querySelector("p");
-	p.innerHTML= " <h1>Entered Metaverse</h1>"
-});
-	
+let status = document.getElementById("status");
+let Btn = document.getElementById("enterBtn");
+Btn.addEventListener("click", () => {
+	status.innerHTML= "<h1>Entered Metaverse</h1>"
+})
